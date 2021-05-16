@@ -8,4 +8,4 @@
 ムーア近傍のセルの高さの合計を見て自身のセルの高さを決定\
 [ここ](https://github.com/Forenard/Applications-of-cellular-automata/blob/main/Applications-of-cellular-automata/Assets/Scripts/Generator.cs)のline:95を見ると分かるかもしれない(私はもう忘れました)
 
-- 遊ぶには[ここ](https://unityroom.com/games/asdasda/settings/publish)
+- 遊ぶには[ここ](https://unityroom.com/games/asdasda)
