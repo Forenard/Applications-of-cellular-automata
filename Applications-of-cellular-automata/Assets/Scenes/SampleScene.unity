@@ -488,10 +488,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 540}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -574,7 +574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -10, y: 10}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1671442600
@@ -610,7 +610,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "WASD\uFF1A\u524D\u5F8C\u5DE6\u53F3\u306E\u79FB\u52D5\r\nQE\uFF1A\u4E0A\u6607\u30FB\u964D\u4E0B\r\n\u53F3\u30C9\u30E9\u30C3\u30B0\uFF1A\u30AB\u30E1\u30E9\u306E\u56DE\u8EE2\r\nC\uFF1A\u30AB\u30E1\u30E9\u64CD\u4F5C\u306E\u6709\u52B9\u30FB\u7121\u52B9\u306E\u5207\u308A\u66FF\u3048"
+  m_Text: 'WASD: Move forward/backward/left/right
+
+    QE: Ascend / Descend
+
+    Right
+    drag: Rotate the camera
+
+    C: Enable/Disable camera operation'
 --- !u!222 &1671442601
 CanvasRenderer:
   m_ObjectHideFlags: 0
